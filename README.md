@@ -8,4 +8,4 @@ A teaching-scale reimplementation of the decision loop in **Mern, Corso, Burch, 
 
 **Also honest:** no gradients, no training, no variational anything. The belief update is exact Bayes on four numbers; the planner is brute-force scoring of candidate cells; randomness is PCG64 (passes the TestU01 Big Crush battery) - the limitation of this notebook is not the quality of the random numbers, it is that the probability model is fiction. Step 13 says what to do about that.
 
-[TruthGrade-EVOIdrillpath]
+[Prospector/TruthGrade-EVOIdrillpath]
