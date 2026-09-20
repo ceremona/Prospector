@@ -1,5 +1,7 @@
 # Popper-Prospector
 
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ceremona/Prospector/blob/main/YOUR_NOTEBOOK_FILENAME.ipynb)
+
 A teaching-scale reimplementation of the decision loop in **Mern, Corso, Burch, House & Caers (2024), Intelligent Prospector v2.0** (arXiv:2410.10610), motivated by **Caers (2025), The Future of AI in Critical Mineral Exploration** (arXiv:2512.02879).
 
 **What it does:** generates synthetic geology, keeps a Bayesian belief over competing hypotheses, drills where expected information gain is highest, tests a max-entropy null hypothesis for falsification, compares against grid drilling, and ablates three likelihood families. Metrics go to BigQuery if you want them to.
